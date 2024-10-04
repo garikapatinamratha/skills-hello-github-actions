@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - run: npm install
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'push'
